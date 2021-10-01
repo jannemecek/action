@@ -3,7 +3,7 @@ name: Push RedHat/RPM
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   push:

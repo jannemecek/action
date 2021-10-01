@@ -3,7 +3,7 @@ name: Push Cargo
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   push:

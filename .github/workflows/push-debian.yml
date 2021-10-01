@@ -3,7 +3,7 @@ name: Push Debian
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   push:

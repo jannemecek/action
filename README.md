@@ -42,7 +42,7 @@ Pass your secret to the Action as seen in the Example usage.
 
 The following examples use static files located within `test/fixtures`. When republishing existing packages the `republish` flag must be set to `true`, but is otherwise recommended to not use this since it overwrites (and causes longer publish times).
 
-To pin to a specific release of this Github Action, replace `use: cloudsmith-io/action@master` with the version you require e.g. `uses: cloudsmith-io/action@0.4.0`.
+To pin to a specific release of this Github Action, replace `use: cloudsmith-io/action@main` with the version you require e.g. `uses: cloudsmith-io/action@0.4.0`.
 
 ### Alpine Package Push
 
@@ -57,7 +57,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Push
         id: push
-        uses: cloudsmith-io/action@master
+        uses: cloudsmith-io/action@main
         with:
           api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
           command: "push"
@@ -83,7 +83,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Push
         id: push
-        uses: cloudsmith-io/action@master
+        uses: cloudsmith-io/action@main
         with:
           api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
           command: "push"
@@ -105,7 +105,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Push
         id: push
-        uses: cloudsmith-io/action@master
+        uses: cloudsmith-io/action@main
         with:
           api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
           command: "push"
@@ -130,7 +130,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Push
         id: push
-        uses: cloudsmith-io/action@master
+        uses: cloudsmith-io/action@main
         with:
           api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
           command: "push"
@@ -154,7 +154,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Push
         id: push
-        uses: cloudsmith-io/action@master
+        uses: cloudsmith-io/action@main
         with:
           api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
           command: "push"
@@ -184,7 +184,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Push
         id: push
-        uses: cloudsmith-io/action@master
+        uses: cloudsmith-io/action@main
         with:
           api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
           command: "push"
@@ -232,7 +232,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Push
         id: push
-        uses: cloudsmith-io/action@master
+        uses: cloudsmith-io/action@main
         with:
           api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
           command: "push"
@@ -256,7 +256,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Push
         id: push
-        uses: cloudsmith-io/action@master
+        uses: cloudsmith-io/action@main
         with:
           api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
           command: "push"
@@ -282,7 +282,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Push
         id: push
-        uses: cloudsmith-io/action@master
+        uses: cloudsmith-io/action@main
         with:
           api-key: ${{ secrets.CLOUDSMITH_API_KEY }}
           command: "push"
@@ -306,4 +306,4 @@ Yes! Please do contribute, this is why we love open source. Please see `CONTRIBU
 
 ## EOF
 
-This quality product was brought to you by [Cloudsmith](https://cloudsmith.io) and the [fine folks who have contributed](https://github.com/cloudsmith-io/action/blob/master/.github/CONTRIBUTORS.md).
+This quality product was brought to you by [Cloudsmith](https://cloudsmith.io) and the [fine folks who have contributed](https://github.com/cloudsmith-io/action/blob/main/.github/CONTRIBUTORS.md).

@@ -3,7 +3,7 @@ name: Push Helm
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   push:

@@ -3,7 +3,7 @@ name: Push Dart
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   push:
